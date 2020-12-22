@@ -33,6 +33,14 @@ nav{
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 14px;
+  
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.nav-links a:hover{
+  color: #ea97ad;
 }
 
 .burger {
@@ -68,6 +76,7 @@ nav{
     flex-direction: column;
     align-items: center;
     width: 50%;
+    display: none;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
